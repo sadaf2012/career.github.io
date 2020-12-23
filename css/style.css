@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-contact-us {
+    width: 100%;
+    height: 600px;
+    background-image: url(..//images/career.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+    position: relative;
+}
+
+.active:active {
+    color: red !important;
+}
+
+.button-color-white-career {
+    background-color: #fff !important;
+}
+
+.click {
+    width: 500px;
+    background-color: #000000;
+}
+
+.outer-div {
+    background-color: #f7f8fa;
+}
+
+.top-footer {
+    background-image: linear-gradient(to right, #091e4b, #2f308d);
+}
+
+.bottom-footer {
+    background-color: #04142e;
+}
+
+.last {
+    background-color: #041330;
+}
+
+.no-back-color {
+    background-color: transparent !important;
+    color: white;
+}
+
+@media (max-width: 575.98px) {
+    .header-contact-us {
+        width: 100%;
+        height: 800px;
+        background-image: url(..//images/career.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+        position: relative;
+    }
+    .click {
+        width: auto!important;
+        background-color: #000000;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .header-contact-us {
+        width: 100%;
+        height: 800px;
+        background-image: url(..//images/career.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+        position: relative;
+    }
+    .click {
+        width: 500px!important;
+        background-color: #000000;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-contact-us {
+        width: 100%;
+        height: 800px;
+        background-image: url(..//images/career.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+        position: relative;
+    }
+}
+
+
+/* ------------media query-------------- */
